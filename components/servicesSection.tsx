@@ -1,102 +1,105 @@
-import React from "react";
-import { Trees, Tent, TreePine } from "lucide-react";
+import Image from "next/image";
 
 const ServicesSection: React.FC = () => {
   return (
-    <section className="py-16 bg-white" id="services">
-      <div className="container mx-auto px-4">
+    <section className="bg-white" id="services">
+      <div
+        aria-hidden="true"
+        className="relative h-56 w-full -mb-8 overflow-hidden">
+        <Image
+          alt="Background nature image"
+          fill={true}
+          sizes="100vw"
+          className="object-cover object-center"
+          priority
+          src="/images/6.jpg"
+        />
+        <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
+      </div>
+      <div className="container mx-auto py-16 px-4">
         <div className="text-center mb-12">
           <h2 className="text-3xl md:text-4xl font-bold mb-4">
             Our Conservation Services
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             We deliver practical, fun, and educational conservation sessions
-            tailored to your organization&apos;s goals and values.
+            tailored to your organization's goals and values.
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-          <div className="service-card bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="h-48 bg-[url('https://images.unsplash.com/photo-1517022812141-23620dba5c23?auto=format&fit=crop&q=80')] bg-center bg-cover"></div>
-            <div className="p-6">
-              <div className="flex items-center gap-2 mb-3">
-                <Trees className="h-5 w-5 text-primary" />
-                <h3 className="text-xl font-semibold">Habitat Restoration</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Team building through practical conservation work including tree
-                planting, pond creation, and wildlife garden development.
+        <div className="max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-12 md:gap-16">
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Fully Guided Conservation Volunteer Sessions
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Complete conservation experiences with all equipment provided,
+                led by experienced guides who ensure meaningful environmental
+                impact.
               </p>
-              <ul className="text-gray-700 space-y-2">
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Native planting workshops</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Habitat construction projects</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Ecological surveys</span>
-                </li>
-              </ul>
             </div>
-          </div>
 
-          <div className="service-card bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="h-48 bg-[url('https://images.unsplash.com/photo-1472396961693-142e6e269027?auto=format&fit=crop&q=80')] bg-center bg-cover"></div>
-            <div className="p-6">
-              <div className="flex items-center gap-2 mb-3">
-                <TreePine className="h-5 w-5 text-primary" />
-                <h3 className="text-xl font-semibold">Wildlife Workshops</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Educational and interactive sessions focused on local wildlife
-                species, their habitats, and conservation needs.
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Nature Education and Heritage Walks
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Fully guided walks exploring local nature and heritage,
+                connecting people with their environment and local history.
               </p>
-              <ul className="text-gray-700 space-y-2">
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Species identification training</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Wildlife monitoring programs</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Conservation photography</span>
-                </li>
-              </ul>
             </div>
-          </div>
 
-          <div className="service-card bg-white rounded-lg shadow-md overflow-hidden">
-            <div className="h-48 bg-[url('https://images.unsplash.com/photo-1465379944081-7f47de8d74ac?auto=format&fit=crop&q=80')] bg-center bg-cover"></div>
-            <div className="p-6">
-              <div className="flex items-center gap-2 mb-3">
-                <Tent className="h-5 w-5 text-primary" />
-                <h3 className="text-xl font-semibold">Corporate Retreats</h3>
-              </div>
-              <p className="text-gray-700 mb-4">
-                Immersive nature-based experiences that combine team building
-                with meaningful conservation action.
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Presentations and Learning
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Remote or in-person presentations, guest speaking and classroom
+                learning sessions tailored to your audience.
               </p>
-              <ul className="text-gray-700 space-y-2">
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Guided nature experiences</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Conservation challenges</span>
-                </li>
-                <li className="flex items-center gap-2">
-                  <span className="h-1.5 w-1.5 rounded-full bg-primary"></span>
-                  <span>Sustainability workshops</span>
-                </li>
-              </ul>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Nature Engagement Activities
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Interactive nature activities designed for all ages and
+                abilities to connect with the natural world through hands-on
+                experiences.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Outdoor Fitness and Team Building
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Combine fitness with nature through outdoor activities that
+                build teams and promote wellbeing in natural settings.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Wildlife Surveys and Assessments
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Professional wildlife surveys and habitat condition assessments
+                with comprehensive reports available for your organization.
+              </p>
+            </div>
+
+            <div className="md:col-span-2">
+              <h3 className="text-xl font-semibold text-gray-900 mb-3">
+                Youth Engagement and Education
+              </h3>
+              <p className="text-gray-600 leading-relaxed">
+                Specialized programs designed to engage young people with nature
+                and conservation education, fostering environmental stewardship
+                for the next generation.
+              </p>
             </div>
           </div>
         </div>
