@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import { GalleryHorizontal } from "lucide-react";
 import {
   Carousel,
@@ -45,16 +45,6 @@ const galleryImages = [
 ];
 
 const PhotoGallerySection: React.FC = () => {
-  const [selectedImage, setSelectedImage] = useState<number | null>(null);
-
-  const openLightbox = (index: number) => {
-    setSelectedImage(index);
-  };
-
-  const closeLightbox = () => {
-    setSelectedImage(null);
-  };
-
   return (
     <section className="py-16 bg-accent" id="gallery">
       <div className="container mx-auto px-4">
@@ -76,16 +66,16 @@ const PhotoGallerySection: React.FC = () => {
           {galleryImages.map((image, index) => (
             <div
               key={image.src + index}
-              className="relative overflow-hidden rounded-lg shadow-md group cursor-pointer h-64"
-              onClick={() => openLightbox(index)}>
+              className="relative overflow-hidden rounded-lg shadow-md group h-64">
               <Image
                 src={image.src}
                 alt={image.alt}
-                fill={true}
-                className="w-full h-full object-cover transition duration-300 group-hover:scale-105"
+                width={500}
+                height={300}
+                className="w-full h-full object-cover"
               />
-              <div className="absolute inset-0 bg-black bg-opacity-0 group-hover:bg-opacity-40 transition-all duration-300 flex items-end">
-                <div className="p-4 w-full text-white transform translate-y-full group-hover:translate-y-0 transition-transform duration-300">
+              <div className="absolute inset-0 flex items-end">
+                <div className="p-4 w-full text-white bg-black/50">
                   <p className="font-medium text-lg">{image.caption}</p>
                 </div>
               </div>
@@ -117,30 +107,6 @@ const PhotoGallerySection: React.FC = () => {
             <CarouselNext className="right-1" />
           </Carousel>
         </div>
-
-        {/* Lightbox */}
-        {selectedImage !== null && (
-          <div
-            className="fixed inset-0 z-50 bg-black bg-opacity-90 flex items-center justify-center p-4"
-            onClick={closeLightbox}>
-            <div className="relative max-w-4xl w-full">
-              <button
-                onClick={closeLightbox}
-                className="absolute -top-10 right-0 text-white hover:text-primary">
-                Close
-              </button>
-              <Image
-                src={galleryImages[selectedImage].src}
-                alt={galleryImages[selectedImage].alt}
-                fill={true}
-                className="w-full h-auto max-h-[80vh] object-contain rounded-lg"
-              />
-              <p className="text-white text-center mt-4 text-lg">
-                {galleryImages[selectedImage].caption}
-              </p>
-            </div>
-          </div>
-        )}
       </div>
     </section>
   );
