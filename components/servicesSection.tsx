@@ -23,7 +23,7 @@ const ServicesSection: React.FC = () => {
           </h2>
           <p className="text-lg text-gray-700 max-w-3xl mx-auto">
             We deliver practical, fun, and educational conservation sessions
-            tailored to your organization's goals and values.
+            tailored to your organization&apos;s goals and values.
           </p>
         </div>
 
