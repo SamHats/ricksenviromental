@@ -5,7 +5,7 @@ import ServicesSection from "@/components/servicesSection";
 import PhotoGallerySection from "@/components/photoGallerySection";
 import BenefitsSection from "@/components/benefitsSection";
 import TestimonialsSection from "@/components/testimonialsSection";
-import ContactSection from "@/components/ContactSection";
+import ContactSection from "@/components/contactSection";
 
 const Home = () => {
   return (
