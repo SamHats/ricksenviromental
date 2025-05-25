@@ -13,34 +13,59 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "/images/2.jpg",
-    alt: "Tree planting activity",
-    caption: "Community tree planting day",
+    src: "/images/32.jpeg",
+    alt: "Conservation activity",
+    caption: "Practical conservation sessions",
   },
   {
-    src: "/images/3.jpg",
-    alt: "Wildlife observation",
-    caption: "Wildlife observation workshop",
+    src: "/images/1.jpg",
+    alt: "Group of volunteers",
+    caption: "Nature Education (all ages)",
+  },
+  {
+    src: "/images/35.jpeg",
+    alt: "Man planting a plant",
+    caption: "Planting schemes",
+  },
+  {
+    src: "/images/57.jpeg",
+    alt: "Meadow",
+    caption: "Meadow creation",
   },
   {
     src: "/images/4.jpg",
-    alt: "Forest conservation",
-    caption: "Forest conservation project",
+    alt: "Men digging a tree",
+    caption: "Woodland management",
   },
   {
-    src: "/images/5.jpg",
-    alt: "Mountain wildlife",
-    caption: "Mountain habitat restoration",
+    src: "/images/39.jpeg",
+    alt: "Group of people exercising",
+    caption: "Outdoor fitness sessions",
   },
   {
-    src: "/images/6.jpg",
-    alt: "Marine conservation",
-    caption: "Marine wildlife protection",
+    src: "/images/45.jpeg",
+    alt: "Path through a woodland",
+    caption: "Builds and open space enhancements",
   },
   {
-    src: "/images/7.jpg",
-    alt: "Wildlife sanctuary",
-    caption: "Wildlife sanctuary tour",
+    src: "/images/2.jpg",
+    alt: "Man next to a tree with bat boxes",
+    caption: "Bat and nest box installs",
+  },
+  {
+    src: "/images/19.jpg",
+    alt: "Two people working on a tree",
+    caption: "Junior engagement",
+  },
+  {
+    src: "/images/50.jpeg",
+    alt: "Man providing a presentation",
+    caption: "Presentations and guest speaking",
+  },
+  {
+    src: "/images/55.jpeg",
+    alt: "Collection of litter",
+    caption: "Litter and harmful waste removal",
   },
 ];
 
