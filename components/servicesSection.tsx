@@ -12,7 +12,7 @@ const ServicesSection: React.FC = () => {
           sizes="100vw"
           className="object-cover object-center"
           priority
-          src="/images/6.jpg"
+          src="/6_lhnngw"
         />
         <div className="absolute inset-0 bg-gradient-to-b from-transparent to-white"></div>
       </div>

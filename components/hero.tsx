@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
         priority={true}
         sizes="100vw"
         className="absolute inset-0 object-cover w-full h-full -z-10 opacity-40"
-        src="/images/1.jpg"
+        src="/1_xw2ks4"
       />
       <section
         className="hero-gradient min-h-[80vh] flex items-center"

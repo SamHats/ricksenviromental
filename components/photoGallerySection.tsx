@@ -12,57 +12,57 @@ import Image from "next/image";
 
 const galleryImages = [
   {
-    src: "/images/32.jpeg",
+    src: "/32_h4hrxl",
     alt: "Conservation activity",
     caption: "Practical conservation sessions",
   },
   {
-    src: "/images/1.jpg",
+    src: "/1_xw2ks4",
     alt: "Group of volunteers",
     caption: "Nature Education (all ages)",
   },
   {
-    src: "/images/35.jpeg",
+    src: "/35_wqpeul",
     alt: "Man planting a plant",
     caption: "Planting schemes",
   },
   {
-    src: "/images/57.jpeg",
+    src: "/57_u5tjsw",
     alt: "Meadow",
     caption: "Meadow creation",
   },
   {
-    src: "/images/4.jpg",
+    src: "/4_eoc8ez",
     alt: "Men digging a tree",
     caption: "Woodland management",
   },
   {
-    src: "/images/39.jpeg",
+    src: "/39_iyqayf",
     alt: "Group of people exercising",
     caption: "Outdoor fitness sessions",
   },
   {
-    src: "/images/45.jpeg",
+    src: "/45_wadwcp",
     alt: "Path through a woodland",
     caption: "Builds and open space enhancements",
   },
   {
-    src: "/images/2.jpg",
+    src: "/2_mendzn",
     alt: "Man next to a tree with bat boxes",
     caption: "Bat and nest box installs",
   },
   {
-    src: "/images/19.jpg",
+    src: "/19_tfeqjj",
     alt: "Two people working on a tree",
     caption: "Junior engagement",
   },
   {
-    src: "/images/50.jpeg",
+    src: "/50_ajlzhs",
     alt: "Man providing a presentation",
     caption: "Presentations and guest speaking",
   },
   {
-    src: "/images/55.jpeg",
+    src: "/55_uvffve",
     alt: "Collection of litter",
     caption: "Litter and harmful waste removal",
   },

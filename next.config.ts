@@ -3,7 +3,10 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   output: 'export',
-  images: { unoptimized: true }
+  images: {
+    loader: 'custom',
+    loaderFile: './lib/cloudinaryLoader.ts',
+  },
 };
 
-export default nextConfig;
+export default nextConfig; 
