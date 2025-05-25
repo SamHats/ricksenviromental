@@ -5,10 +5,12 @@ const contactDetails = [
   {
     label: "Email",
     value: "info@ricksenvironmental.org",
+    link: "mailto:info@ricksenvironmental.org",
   },
   {
     label: "Phone",
-    value: "+44 7793 891103",
+    value: "+44 77938 91103",
+    link: "tel:+447793891103",
   },
 ];
 
@@ -30,7 +32,9 @@ const ContactSection: React.FC = () => {
             {contactDetails.map((detail) => (
               <div key={detail.label} className="mb-4">
                 <p className="text-sm text-gray-500">{detail.label}</p>
-                <p className="font-medium">{detail.value}</p>
+                <p className="font-medium">
+                  <a href={detail.link}>{detail.value}</a>
+                </p>
               </div>
             ))}
 
