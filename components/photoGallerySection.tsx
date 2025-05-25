@@ -1,6 +1,5 @@
 "use client";
 
-import React from "react";
 import { GalleryHorizontal } from "lucide-react";
 import {
   Carousel,

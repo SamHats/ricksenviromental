@@ -1,8 +1,7 @@
-import React from "react";
 import { Card, CardContent } from "@/components/ui/card";
 import { Flower, Bird, Mountain } from "lucide-react";
 
-const MissionSection: React.FC = () => {
+const MissionSection = () => {
   return (
     <section className="py-16 bg-accent" id="about">
       <div className="container mx-auto px-4">

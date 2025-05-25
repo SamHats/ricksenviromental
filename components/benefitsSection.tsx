@@ -1,8 +1,7 @@
-import React from "react";
 import { CheckCircle, Award, Users, Smile } from "lucide-react";
 import { Card, CardContent } from "@/components/ui/card";
 
-const BenefitsSection: React.FC = () => {
+const BenefitsSection = () => {
   return (
     <section
       className="py-16 bg-linear-to-b from-accent to-white"
