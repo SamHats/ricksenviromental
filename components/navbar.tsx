@@ -35,11 +35,11 @@ const Navbar = () => {
             className="text-gray-700 hover:text-primary font-medium">
             Benefits
           </a>
-          <a
+          {/* <a
             href="#testimonials"
             className="text-gray-700 hover:text-primary font-medium">
             Impact
-          </a>
+          </a> */}
           <Button asChild>
             <a href="#contact">Contact Us</a>
           </Button>
@@ -84,11 +84,11 @@ const Navbar = () => {
             className="block py-2 text-gray-700 hover:text-primary font-medium">
             Benefits
           </a>
-          <a
+          {/* <a
             href="#testimonials"
             className="block py-2 text-gray-700 hover:text-primary font-medium">
             Impact
-          </a>
+          </a> */}
           <Button asChild className="mt-2 w-full">
             <a href="#contact">Contact Us</a>
           </Button>
