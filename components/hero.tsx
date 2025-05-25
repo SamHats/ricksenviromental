@@ -10,7 +10,7 @@ const Hero: React.FC = () => {
         fill={true}
         priority={true}
         sizes="100vw"
-        className="absolute inset-0 object-cover w-full h-full -z-10 opacity-20"
+        className="absolute inset-0 object-cover w-full h-full -z-10 opacity-40"
         src="/images/1.jpg"
       />
       <section
