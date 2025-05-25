@@ -4,7 +4,6 @@ import MissionSection from "@/components/missionSection";
 import ServicesSection from "@/components/servicesSection";
 import PhotoGallerySection from "@/components/photoGallerySection";
 import BenefitsSection from "@/components/benefitsSection";
-import TestimonialsSection from "@/components/testimonialsSection";
 import ContactSection from "@/components/contactSection";
 
 const Home = () => {
@@ -16,7 +15,7 @@ const Home = () => {
       <ServicesSection />
       <PhotoGallerySection />
       <BenefitsSection />
-      <TestimonialsSection />
+      {/* <TestimonialsSection /> */}
       <ContactSection />
     </div>
   );
