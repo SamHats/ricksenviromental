@@ -1,5 +1,5 @@
-import React from "react";
 import { Button } from "@/components/ui/button";
+import { Linkedin, Instagram, Facebook } from "lucide-react";
 
 const contactDetails = [
   {
@@ -33,6 +33,36 @@ const ContactSection: React.FC = () => {
                 <p className="font-medium">{detail.value}</p>
               </div>
             ))}
+
+            <div className="mt-6">
+              <p className="text-sm text-gray-500 mb-2">Connect With Us</p>
+              <div className="flex flex-col gap-2">
+                <a
+                  href="https://www.linkedin.com/company/ricks-environmental-cic"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline flex items-center">
+                  <Linkedin className="mr-2" size={16} />
+                  LinkedIn
+                </a>
+                <a
+                  href="https://www.instagram.com/ricksenviromentalcic/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline flex items-center">
+                  <Instagram className="mr-2" size={16} />
+                  Instagram (@ricksenviromentalcic)
+                </a>
+                <a
+                  href="https://www.facebook.com/share/16ds6vCBow/?mibextid=wwXIfr"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-primary hover:underline flex items-center">
+                  <Facebook className="mr-2" size={16} />
+                  Facebook
+                </a>
+              </div>
+            </div>
           </div>
           <div className="bg-primary/10 p-6 rounded-lg">
             <h3 className="text-xl font-semibold mb-4">Start Your Journey</h3>
