@@ -42,7 +42,7 @@ const ContactSection: React.FC = () => {
               <p className="text-sm text-gray-500 mb-2">Connect With Us</p>
               <div className="flex flex-col gap-2">
                 <a
-                  href="https://www.linkedin.com/company/ricks-environmental-cic"
+                  href="https://www.linkedin.com/company/ricks-enviromental-cic"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-primary hover:underline flex items-center">
