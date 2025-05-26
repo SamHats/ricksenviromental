@@ -15,7 +15,7 @@ const Navbar = () => {
           href="/"
           className="flex items-center gap-2 font-bold text-xl text-primary">
           <Leaf className="h-6 w-6" />
-          <span>Rick&apos;s Environmental</span>
+          <span>Rick&apos;s Environmental CIC</span>
         </Link>
 
         {/* Desktop Navigation */}

@@ -4,8 +4,8 @@ import { Linkedin, Instagram, Facebook } from "lucide-react";
 const contactDetails = [
   {
     label: "Email",
-    value: "info@ricksenvironmental.org",
-    link: "mailto:info@ricksenvironmental.org",
+    value: "info@ricksenvironmental.co.uk",
+    link: "mailto:info@ricksenvironmental.co.uk",
   },
   {
     label: "Phone",
@@ -75,7 +75,7 @@ const ContactSection: React.FC = () => {
               Schedule a free consultation with our experts.
             </p>
             <Button variant="secondary" asChild>
-              <a href="mailto:info@ricksenvironmental.org">
+              <a href="mailto:info@ricksenvironmental.co.uk">
                 Request a Consultation
               </a>
             </Button>

@@ -13,7 +13,7 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Ricks Enviromental CIC",
+  title: "Rick's Environmental CIC",
   description:
     "Delivering practical, fun, and educational conservation sessions that fulfill your Corporate Social Value Responsibilities while making a difference for local wildlife",
 };

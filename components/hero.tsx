@@ -25,7 +25,7 @@ const Hero: React.FC = () => {
               </span>
             </div>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold mb-6 leading-tight">
-              Ricks Enviromental CIC
+              Rick&apos;s Environmental CIC
             </h1>
             <p className="text-lg md:text-xl mb-8 text-gray-700 max-w-2xl">
               Rick&apos;s Environmental CIC delivers practical, fun, and
